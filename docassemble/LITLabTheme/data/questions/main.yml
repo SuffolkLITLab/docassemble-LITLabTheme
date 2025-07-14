@@ -1,0 +1,9 @@
+---
+features:
+  bootstrap theme: bootstrap.min.css
+  css:
+    - variables.css
+    - custom.css
+---
+objects:
+  - al_logo: DAStaticFile.using(filename="dal-favicon.png")

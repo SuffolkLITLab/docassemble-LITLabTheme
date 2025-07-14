@@ -1,0 +1,11 @@
+.navbar.bg-dark {
+  background-color: var(--suffolk-blue) !important;
+}
+
+.al-title {
+  color: var(--white);
+  
+  .title-row-1 {
+    color: var(--suffolk-gold);
+  }
+}

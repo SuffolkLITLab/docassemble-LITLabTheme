@@ -9,3 +9,17 @@
     color: var(--suffolk-gold);
   }
 }
+
+/* Added from Bootstrap _utilities.scss */
+
+.text-start {
+  text-align: left !important;
+}
+
+.text-end {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}

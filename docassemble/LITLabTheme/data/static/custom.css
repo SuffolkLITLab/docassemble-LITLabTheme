@@ -12,6 +12,10 @@
 
 .nav-link {
   color: var(--bs-nav-link-color);
+
+  &:hover {
+    color: var(--bs-nav-link-color);
+  }
 }
 
 /* Added from Bootstrap _utilities.scss */

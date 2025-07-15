@@ -4,3 +4,8 @@
   --suffolk-gold: #fdb924;
   --suffolk-gold-rgb: 253, 185, 36;
 }
+
+.navbar-nav {
+  --bs-nav-link-color: rgba(255, 255, 255, .65);
+  --bs-nav-link-hover-color: rgba(255, 255, 255, .65);
+}

@@ -18,6 +18,12 @@
   }
 }
 
+/* Elements */
+
+a {
+  text-decoration: underline;
+}
+
 /* Added from Bootstrap _utilities.scss */
 
 .float-start {

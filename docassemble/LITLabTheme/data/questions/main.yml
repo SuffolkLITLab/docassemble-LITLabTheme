@@ -2,6 +2,7 @@
 features:
   bootstrap theme: bootstrap.min.css
   css:
+    - bootstrap-utilities.min.css
     - variables.css
     - custom.css
 ---

@@ -1,8 +1,7 @@
 ---
 features:
-  bootstrap theme: bootstrap.min.css
+  bootstrap theme: bootstrap-theme.css
   css:
-    - bootstrap-utilities.min.css
     - variables.css
     - custom.css
 ---

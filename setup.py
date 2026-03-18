@@ -44,7 +44,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.LITLabTheme',
-      version='1.0.10',
+      version='1.0.11',
       description=('Customizations for Suffolk LIT Lab interviews.'),
       long_description='# docassemble.LITLabTheme\r\n\r\nA Bootstrap theme and other visual customizations for Suffolk LIT Lab interviews.\r\n\r\n## Author\r\n\r\nSuffolk LIT Lab, litlab@suffolk.edu',
       long_description_content_type='text/markdown',
@@ -53,7 +53,7 @@ setup(name='docassemble.LITLabTheme',
       license='The MIT License (MIT)',
       url='https://courtformsonline.org',
       packages=find_namespace_packages(),
-      install_requires=['docassemble.AssemblyLine @ git+https://github.com/SuffolkLITLab/docassemble-AssemblyLine.git@main'],
+      install_requires=[],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/LITLabTheme/', package='docassemble.LITLabTheme'),
      )

@@ -44,7 +44,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.LITLabTheme',
-      version='1.0.9',
+      version='1.0.10',
       description=('Customizations for Suffolk LIT Lab interviews.'),
       long_description='# docassemble.LITLabTheme\r\n\r\nA Bootstrap theme and other visual customizations for Suffolk LIT Lab interviews.\r\n\r\n## Author\r\n\r\nSuffolk LIT Lab, litlab@suffolk.edu',
       long_description_content_type='text/markdown',
@@ -57,4 +57,3 @@ setup(name='docassemble.LITLabTheme',
       zip_safe=False,
       package_data=find_package_data(where='docassemble/LITLabTheme/', package='docassemble.LITLabTheme'),
      )
-
